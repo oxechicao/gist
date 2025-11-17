@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# USAGE
+# Define each application you want to track on apps list
+#
+# 1. 
+# 	source pc_consume.sh;
+# 	consume_apps;
+# 	OR for watch
+# 	wca 1
+# 2.
+# 	Change the script and call the command at the end
+
 apps=(chrome brave spotify teams slack)
 function cpu_app() {
 	app=$1
